@@ -1,9 +1,12 @@
 const express = require('express')
+const multer = require('multer')
 const { PORT } = require('../config.js')
 const app = express()
+const fileUpload = multer()
 
 const modelMiddleware = require('./middlewares/model.js')
 app.use(modelMiddleware)
+app.use(fileUpload.single('file'))
 app.use(express.json())
 
 const userRouter = require('./routes/user.js')

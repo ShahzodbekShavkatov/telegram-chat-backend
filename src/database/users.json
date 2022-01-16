@@ -2,7 +2,13 @@
     {
         "userId": 1,
         "username": "shoh",
-        "profileImg": "/profileImages/man.jpg",
+        "profileImg": "/profileImage/man.jpg",
         "password": "4b6e86bb7c87e53c15cd56d84bd6b54ff6d0b4fa96faaee9cd9b7c1beb80bba0"
+    },
+    {
+        "userId": 2,
+        "username": "jamshid",
+        "profileImg": "/profileImage/1642376166873background_photo.jpg",
+        "password": "b60a4eb1e8308adbcc89eec98eaa70b529d900028b5fbaac68af7fcb02cdeabb"
     }
 ]
