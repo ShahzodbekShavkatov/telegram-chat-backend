@@ -1,20 +1,27 @@
 const express = require('express')
 const multer = require('multer')
 const { PORT } = require('../config.js')
+const cors = require('cors')
 const app = express()
 const fileUpload = multer()
 
 const modelMiddleware = require('./middlewares/model.js')
+app.use(cors())
 app.use(modelMiddleware)
 app.use(fileUpload.single('file'))
 app.use(express.json())
 
+
 const userRouter = require('./routes/user.js')
 const authRouter = require('./routes/auth.js')
+const messagesRouter = require('./routes/message.js')
+const checkToken = require('./middlewares/checkToken.js')
 
 
-app.use('/users', userRouter)
+
+app.use('/users', checkToken, userRouter)
 app.use('/auth', authRouter)
+app.use('/messages', checkToken, messagesRouter)
 
 
 

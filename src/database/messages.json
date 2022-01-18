@@ -2,10 +2,27 @@
     {
         "userId": 1,
         "receivingUserId": 2,
-        "dataId": 1,
-        "messageText": "salom, ishlaring yaxshimi?",
-        "messageFile": "messageFiles/yourlife.jpg",
-        "messageFileSize": 0.1,
-        "date": "2022-01-16T20:10:23.534Z"
+        "me": [
+            {
+                "date": "2022-01-17T23:45:28.998Z",
+                "messageText": "yangi xabar",
+                "messageFile": "",
+                "messageFileSize": null
+            }
+        ],
+        "recievingUser": []
+    },
+    {
+        "userId": 2,
+        "receivingUserId": 1,
+        "me": [],
+        "recievingUser": [
+            {
+                "date": "2022-01-17T23:45:28.998Z",
+                "messageText": "yangi xabar",
+                "messageFile": "",
+                "messageFileSize": null
+            }
+        ]
     }
 ]
