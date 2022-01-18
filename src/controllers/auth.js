@@ -30,29 +30,28 @@ const REGISTER = (req, res, next) => {
         const users = req.select('users')
         const { username, password } = req.body
         const userFound = users.find(user => user.username == username)
-        console.log(userFound)
+        // console.log(req.body)
 
         if (userFound) {
             throw new Error("The user already exists!")
         }
-
-        if (!req.file) {
+        console.log(req.files)
+        if (!req.files) {
             throw new Error("The file argument is required!")
         }
 
-        const { size, mimetype, buffer, originalname } = req.file
+        const { size, mimetype, data, name } = req.files.file
 
         if (size > (10 * (2 ** 20))) {
             throw new Error("The file is larger than 10MB!")
         }
-
         if (!['image/jgp', 'image/jpeg', 'image/png'].includes(mimetype)) {
             throw new Error("The file must be jgp or png!")
         }
-
-        const fileName = Date.now() + originalname.replace(/\s/g, '')
+        console.log(name)
+        const fileName = Date.now() + name.replace(/\s/g, '')
         const pathName = path.join(process.cwd(), 'files', 'profileImages', fileName)
-        fs.writeFileSync(pathName, buffer)
+        fs.writeFileSync(pathName, data)
 
         const newUser = {
             userId: users.length ? users[users.length - 1].userId + 1 : 1,
