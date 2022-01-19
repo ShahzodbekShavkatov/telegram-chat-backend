@@ -1,27 +1,631 @@
 [
     {
-        "userId": 1,
-        "receivingUserId": 2,
-        "me": [
+        "userId": 3,
+        "receivingUserId": 4,
+        "message": [
             {
+                "me": 3,
                 "date": "2022-01-17T23:45:28.998Z",
-                "messageText": "yangi xabar",
-                "messageFile": "",
-                "messageFileSize": null
+                "messageText": "yangi xabar"
+            },
+            {
+                "receiver": 4,
+                "date": "2022-01-17T23:45:28.998Z",
+                "messageText": "yanayam yangi xabar"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:09:58.157Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:17:35.913Z",
+                "messageText": "gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:40:06.477Z",
+                "messageText": "jahongir"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:40:13.335Z",
+                "messageText": "shoh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:01:56.840Z",
+                "messageText": "gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:09:02.636Z",
+                "messageText": "world"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:13:32.035Z",
+                "messageText": "nima"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:13:38.670Z",
+                "messageText": "what"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:14:54.805Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:23:13.728Z",
+                "messageText": "nima"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:24:05.542Z",
+                "messageText": "gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:39:41.747Z",
+                "messageText": "gaplar"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:41:05.271Z",
+                "messageText": "xosh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:43:51.763Z",
+                "messageText": "nima gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:46:24.199Z",
+                "messageText": "keyinchi"
             }
-        ],
-        "recievingUser": []
+        ]
     },
     {
-        "userId": 2,
-        "receivingUserId": 1,
-        "me": [],
-        "recievingUser": [
+        "userId": 4,
+        "receivingUserId": 3,
+        "message": [
             {
+                "me": 4,
                 "date": "2022-01-17T23:45:28.998Z",
-                "messageText": "yangi xabar",
-                "messageFile": "",
-                "messageFileSize": null
+                "messageText": "yanayam yangi xabar"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-17T23:45:28.998Z",
+                "messageText": "yangi xabar"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:09:58.157Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:17:35.913Z",
+                "messageText": "gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:40:06.477Z",
+                "messageText": "jahongir"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:40:13.335Z",
+                "messageText": "shoh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:01:56.840Z",
+                "messageText": "gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:09:02.636Z",
+                "messageText": "world"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:13:32.035Z",
+                "messageText": "nima"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:13:38.670Z",
+                "messageText": "what"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:14:54.805Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:23:13.728Z",
+                "messageText": "nima"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:24:05.542Z",
+                "messageText": "gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:39:41.747Z",
+                "messageText": "gaplar"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:41:05.271Z",
+                "messageText": "xosh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:43:51.763Z",
+                "messageText": "nima gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:46:24.199Z",
+                "messageText": "keyinchi"
+            }
+        ]
+    },
+    {
+        "userId": 3,
+        "receivingUserId": 1,
+        "message": [
+            {
+                "me": 3,
+                "date": "2022-01-18T22:10:22.220Z",
+                "messageText": "world"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:13:06.323Z",
+                "messageText": "world"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:15:06.309Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:15:17.055Z",
+                "messageText": "world"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:17:21.679Z",
+                "messageText": "nima"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:19:52.503Z",
+                "messageText": "gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:29:56.694Z",
+                "messageText": "hay bola"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:32:02.110Z",
+                "messageText": "bir qara"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:32:19.112Z",
+                "messageText": "hech gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:42:24.291Z",
+                "messageText": "shoh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:42:31.920Z",
+                "messageText": "jahongir"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:43:41.846Z",
+                "messageText": "shoh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:43:50.733Z",
+                "messageText": "jahongir"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:45:13.763Z",
+                "messageText": "sh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:45:18.717Z",
+                "messageText": "j"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:47:06.387Z",
+                "messageText": "shsh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T22:47:15.319Z",
+                "messageText": "shsh"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:01:04.038Z",
+                "messageText": "shah"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:01:49.549Z",
+                "messageText": "nima"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:02:35.283Z",
+                "messageText": "gaplar"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:03:25.485Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:04:46.652Z",
+                "messageText": "yanachi"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:07:08.164Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:08:47.340Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:12:22.810Z",
+                "messageText": "nima gap"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-19T00:05:50.828Z",
+                "messageText": "nima gaplar"
+            }
+        ]
+    },
+    {
+        "receivingUserId": 3,
+        "userId": 1,
+        "message": [
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:10:22.220Z",
+                "messageText": "world"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:13:06.323Z",
+                "messageText": "world"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:15:06.309Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:15:17.055Z",
+                "messageText": "world"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:17:21.679Z",
+                "messageText": "nima"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:19:52.503Z",
+                "messageText": "gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:29:56.694Z",
+                "messageText": "hay bola"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:32:02.110Z",
+                "messageText": "bir qara"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:32:19.112Z",
+                "messageText": "hech gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:42:24.291Z",
+                "messageText": "shoh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:42:31.920Z",
+                "messageText": "jahongir"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:43:41.846Z",
+                "messageText": "shoh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:43:50.733Z",
+                "messageText": "jahongir"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:45:13.763Z",
+                "messageText": "sh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:45:18.717Z",
+                "messageText": "j"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:47:06.387Z",
+                "messageText": "shsh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T22:47:15.319Z",
+                "messageText": "shsh"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:01:04.038Z",
+                "messageText": "shah"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:01:49.549Z",
+                "messageText": "nima"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:02:35.283Z",
+                "messageText": "gaplar"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:03:25.485Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:04:46.652Z",
+                "messageText": "yanachi"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:07:08.164Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:08:47.340Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:12:22.810Z",
+                "messageText": "nima gap"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-19T00:05:50.828Z",
+                "messageText": "nima gaplar"
+            }
+        ]
+    },
+    {
+        "userId": 3,
+        "receivingUserId": 2,
+        "message": [
+            {
+                "me": 3,
+                "date": "2022-01-18T23:48:16.025Z",
+                "messageText": "hello"
+            }
+        ]
+    },
+    {
+        "receivingUserId": 3,
+        "userId": 2,
+        "message": [
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:48:16.025Z",
+                "messageText": "hello"
+            }
+        ]
+    },
+    {
+        "userId": 5,
+        "receivingUserId": 3,
+        "message": [
+            {
+                "me": 5,
+                "date": "2022-01-18T23:56:28.916Z",
+                "messageText": "salom"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:56:39.701Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 5,
+                "date": "2022-01-18T23:56:53.283Z",
+                "messageText": "salom"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:57:45.701Z",
+                "messageText": "nima gap"
+            },
+            {
+                "me": 5,
+                "date": "2022-01-18T23:57:50.422Z",
+                "messageText": "dwadw"
+            },
+            {
+                "me": 5,
+                "date": "2022-01-18T23:59:12.946Z",
+                "messageText": "salom"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-18T23:59:24.166Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "me": 5,
+                "date": "2022-01-18T23:59:58.401Z",
+                "messageText": "dwafeg"
+            },
+            {
+                "me": 5,
+                "date": "2022-01-19T00:00:08.336Z",
+                "messageText": "fsrgh"
+            }
+        ]
+    },
+    {
+        "receivingUserId": 5,
+        "userId": 3,
+        "message": [
+            {
+                "receiver": 5,
+                "date": "2022-01-18T23:56:28.916Z",
+                "messageText": "salom"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:56:39.701Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 5,
+                "date": "2022-01-18T23:56:53.283Z",
+                "messageText": "salom"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:57:45.701Z",
+                "messageText": "nima gap"
+            },
+            {
+                "receiver": 5,
+                "date": "2022-01-18T23:57:50.422Z",
+                "messageText": "dwadw"
+            },
+            {
+                "receiver": 5,
+                "date": "2022-01-18T23:59:12.946Z",
+                "messageText": "salom"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-18T23:59:24.166Z",
+                "messageText": "keyinchi"
+            },
+            {
+                "receiver": 5,
+                "date": "2022-01-18T23:59:58.401Z",
+                "messageText": "dwafeg"
+            },
+            {
+                "receiver": 5,
+                "date": "2022-01-19T00:00:08.336Z",
+                "messageText": "fsrgh"
+            }
+        ]
+    },
+    {
+        "userId": 6,
+        "receivingUserId": 3,
+        "message": [
+            {
+                "me": 6,
+                "date": "2022-01-19T00:01:44.711Z",
+                "messageText": "salom"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-19T00:01:59.766Z",
+                "messageText": "hello"
+            },
+            {
+                "me": 6,
+                "date": "2022-01-19T00:02:11.532Z",
+                "messageText": "world\n\n"
+            },
+            {
+                "receiver": 3,
+                "date": "2022-01-19T00:06:28.413Z",
+                "messageText": "nima gap"
+            }
+        ]
+    },
+    {
+        "receivingUserId": 6,
+        "userId": 3,
+        "message": [
+            {
+                "receiver": 6,
+                "date": "2022-01-19T00:01:44.711Z",
+                "messageText": "salom"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-19T00:01:59.766Z",
+                "messageText": "hello"
+            },
+            {
+                "receiver": 6,
+                "date": "2022-01-19T00:02:11.532Z",
+                "messageText": "world\n\n"
+            },
+            {
+                "me": 3,
+                "date": "2022-01-19T00:06:28.413Z",
+                "messageText": "nima gap"
             }
         ]
     }

@@ -17,7 +17,8 @@ const LOGIN = (req, res, next) => {
         return res.status(200).json({
             user,
             message: "The user has successfully logged in!",
-            token: sign({ userId: user.userId, agent: req.headers['user-agent'] })
+            token: sign({ userId: user.userId, agent: req.headers['user-agent'] }),
+            id: user.userId
         })
 
     } catch (error) {
@@ -67,7 +68,8 @@ const REGISTER = (req, res, next) => {
         res.status(201).json({
             user: newUser,
             message: "The user has successfully registered!",
-            token: sign({ userId: newUser.userId, agent: req.headers['user-agent'] })
+            token: sign({ userId: newUser.userId, agent: req.headers['user-agent'] }),
+            id: newUser.userId
         })
 
 

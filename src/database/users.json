@@ -16,5 +16,23 @@
         "username": "Shahzodbek",
         "profileImg": "/profileImage/1642510767797dasturchinimaqiladi.jpg",
         "password": "4b6e86bb7c87e53c15cd56d84bd6b54ff6d0b4fa96faaee9cd9b7c1beb80bba0"
+    },
+    {
+        "userId": 4,
+        "username": "jahongir",
+        "profileImg": "/profileImage/1642528327151image_2021-09-21_20-43-10.png",
+        "password": "c447a5fcab4ca7543b2aecb90c0b5c34c85b2b82452195590421f5ce721278dc"
+    },
+    {
+        "userId": 5,
+        "username": "Sarvarbek",
+        "profileImg": "/profileImage/1642550171045Снимокэкранаот2022-01-1621-04-51.png",
+        "password": "8bc5fa7f0cc1db0b7ed9f948bf8a469c053e14ff143d9438f9ed4beab15bdb16"
+    },
+    {
+        "userId": 6,
+        "username": "Sarvarbek2003",
+        "profileImg": "/profileImage/1642550465213Снимокэкранаот2022-01-1621-04-51.png",
+        "password": "8bc5fa7f0cc1db0b7ed9f948bf8a469c053e14ff143d9438f9ed4beab15bdb16"
     }
 ]
